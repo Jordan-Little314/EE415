@@ -1710,7 +1710,6 @@
 /DCIM/100APPLE/IMG_0449.MO	56219423
 
 
-
 Total bytes: 1,002,625,657
 Conclusion: Probably doesn't show app data/OS stuff since only 1GB of data shown and I have 14GB used on my phone.
             OR it's not the size in bytes
