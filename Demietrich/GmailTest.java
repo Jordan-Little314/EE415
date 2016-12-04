@@ -1,21 +1,17 @@
-package Android;
- 
+package gmailtest;
+
 
 import java.net.MalformedURLException;
 
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
-import java.io.File;
-
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.interactions.internal.TouchAction;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -35,7 +31,7 @@ public class GmailTest {
   capabilities.setCapability(CapabilityType.BROWSER_NAME, "Android");
 
   // Set android VERSION desired capability.
-  capabilities.setCapability(CapabilityType.VERSION, "4.4.4");
+  capabilities.setCapability(CapabilityType.VERSION, "4.4.2");
 
   // Set android platformName desired capability.
   capabilities.setCapability("platformName", "Android");
@@ -66,7 +62,7 @@ public class GmailTest {
 	 //attach picture
 	 driver.findElement(By.xpath("//android.widget.ImageButton")).click();
 	 driver.findElement(By.name("Attach picture")).click();
-	 driver.findElement(By.id("com.android.documentsui:id/icon_mime")).click();
+	 driver.findElement(By.id("com.android.documentsui:id/icon_thumb")).click();
 	 driver.findElement(By.id("com.google.android.gm:id/send")).click();
 	 //return to home
 	 driver.navigate().back();
@@ -74,8 +70,4 @@ public class GmailTest {
 	 
  }
 
-@AfterTest
- public void End() {
-  driver.quit();
- }
 }
