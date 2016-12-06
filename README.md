@@ -1,4 +1,6 @@
 # EE415
-Repository for the Surah EE415 team
+Repository for the Surah EE415/416 team - "Emulating user behavior on Android/iOS devices"
 
-**More info in the future***
+Currently have two working scripts for camera and email on Android devices.
+
+iOS capabilities to be implemented in the future
