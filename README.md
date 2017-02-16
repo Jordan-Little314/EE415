@@ -9,7 +9,7 @@ This readme will detail how to successfully download and install the necessary p
 
 ## Using Appium on OSX and getting it working with iOS
 
-'This set-up is assuming you are trying to configure Appium with the most up to date version of iOS and XCode, which as of writing this guide are iOS 10.2 and XCode 8.2.1'
+This set-up is assuming you are trying to configure Appium with the most up to date version of iOS and XCode, which as of writing this guide are iOS 10.2 and XCode 8.2.1
 
 1. Go to [Appium's](Appium.io) website and press the **Download Appium** button. It should automatically start a .dmg file download, install it as you would any other file.
 
