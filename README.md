@@ -35,5 +35,6 @@ When the server starts, you are now free to press the inspector on the GUI (the 
 
 ## Using Appium on Windows and getting it working with Android
 
-[Getting Appium set up on Windows](https://docs.google.com/document/d/11KUsgmD_J8civ1i51VgjFlkLaw6eRnBs1ISflH3pS9U/edit)
-[How to write Appium automation scripts for Android](https://docs.google.com/document/d/1JzqFzsiuS6d82msz2Mg3UxGb4B2Qj9bMJNKIedqWUKM/edit)
+* [Getting Appium set up on Windows](https://docs.google.com/document/d/11KUsgmD_J8civ1i51VgjFlkLaw6eRnBs1ISflH3pS9U/edit)
+
+* [How to write Appium automation scripts for Android](https://docs.google.com/document/d/1JzqFzsiuS6d82msz2Mg3UxGb4B2Qj9bMJNKIedqWUKM/edit)
