@@ -1,0 +1,10 @@
+//
+//  Config.xcconfig
+//  Joke App
+//
+//  Created by WSU Senior Design on 4/4/17.
+//  Copyright © 2017 Washington State University. All rights reserved.
+//
+
+DEVELOPMENT_TEAM = 58B68322YQ
+CODE_SIGN_IDENTITY = iPhone Developer
